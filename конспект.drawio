@@ -1,0 +1,131 @@
+<mxfile host="app.diagrams.net" modified="2023-04-22T12:47:31.545Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="GYheFnQPlHGN6uButjNI" version="21.2.1" type="device">
+  <diagram name="Page-1" id="m2XgCgabAHa0IOCJFUl1">
+    <mxGraphModel dx="2261" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oZKDr4SR8ECKcvLH25NA-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="200" width="320" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="oZKDr4SR8ECKcvLH25NA-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="845" y="420" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oZKDr4SR8ECKcvLH25NA-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="845" y="200" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oZKDr4SR8ECKcvLH25NA-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="335" y="140" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oZKDr4SR8ECKcvLH25NA-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-210" y="145" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oZKDr4SR8ECKcvLH25NA-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="670" width="520" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="oZKDr4SR8ECKcvLH25NA-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="200" width="520" height="435" as="geometry" />
+        </mxCell>
+        <mxCell id="oZKDr4SR8ECKcvLH25NA-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-370" y="210" width="520" height="435" as="geometry" />
+        </mxCell>
+        <mxCell id="oZKDr4SR8ECKcvLH25NA-1" value="&lt;div&gt;Открытие терминала&lt;/div&gt;&lt;div&gt;Scanner *название* = new Scanner()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Считывание строчки&lt;/div&gt;&lt;div&gt;String *переменная* = *название*.nextLine()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Другие считывания:&lt;/div&gt;&lt;div&gt;*переменная* = *название*.nextInt()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;*переменная* = *название*.nextDouble()&lt;/div&gt;&lt;div&gt;есть ещё куча считываний разных данных&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;проверка есть ли ещё ввод&lt;/div&gt;&lt;div&gt;*название*.hasNext() - все что угодно&lt;/div&gt;&lt;div&gt;*название*.hasNextInt() - есть ли ещё число&lt;/div&gt;&lt;div&gt;*название*.hasNextDouble() - есть ли дробное число&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Закрытие сканера: *название*.close()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Все остальные методы есть тут:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/util/Scanner.html&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-340" y="223" width="460" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="oZKDr4SR8ECKcvLH25NA-2" value="&lt;div&gt;Начинаем работать с файлом&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; File file = new File(&quot;Example.txt&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Создание файла&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; file.createNewFile();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;   Запись&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Создание объекта FileWriter&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; FileWriter writer = new FileWriter(file, true); -каждая запись - добавление в файл&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; FileWriter writer = new FileWriter(file, false); -перезапись файла&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Запись содержимого в файл&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; writer.write(&quot;текст&quot;);&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; writer.close();&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;  &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;   &lt;/span&gt;Чтение&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Создание объекта FileReader&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; FileReader file = new FileReader(file);&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; char [] a = new char[(int) file.length()];&amp;nbsp; &amp;nbsp; Количество символов, которое будем считывать&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; file.read(a);&amp;nbsp; &amp;nbsp;- Чтение содержимого в массив&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; for(char c : a)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;System.out.print(c);&amp;nbsp; &amp;nbsp;- Вывод символов один за другими&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; file.close(); - закрытие&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="230" y="400" width="660" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oZKDr4SR8ECKcvLH25NA-3" value="import java.io.File;&lt;br&gt;import java.io.FileReader;&lt;br&gt;import java.io.FileWriter;&lt;br&gt;import java.net.SocketTimeoutException;&lt;br&gt;// задание: записать слово TEST в файл 10 раз&lt;br&gt;public class Main {&lt;br&gt;&amp;nbsp; &amp;nbsp; public static void main(String[] args) {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Integer n = 10;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; String text = &quot;TEST&quot;;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; String file_name = &quot;1.txt&quot;;&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; File file = new File(file_name);&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; try{&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; FileWriter writer = new FileWriter(file,false);&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for (int i = 0; i &amp;lt; n; i++){&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; writer.write(text);&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; writer.write(&quot;\n&quot;);&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; writer.close();&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; System.out.println(&quot;Получилось!)&quot;);&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; catch (Exception e){&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; System.out.println(&quot;Что то пошло не так&quot;);&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; try{&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; FileReader f = new FileReader(file);&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; char[] a = new char[(int) file.length()];&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; f.read(a);&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for(char c: a){&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; System.out.print(c);&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; f.close();&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; catch (Exception e){&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; System.out.println(&quot;Что то не так&quot;);&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;br&gt;&amp;nbsp; &amp;nbsp; }&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="1025" width="1040" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oZKDr4SR8ECKcvLH25NA-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;public class Main { --- создание класса&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; public static void main(String[] args) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; } --- функция запуска вашего файла&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; static void ex0(){} -- функция ничего не возвращает&lt;/div&gt;&lt;div&gt; Чтобы выводило - вместо void пишите свои данные&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="690" y="280" width="560" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="oZKDr4SR8ECKcvLH25NA-5" value="&lt;div&gt;private - доступно только из класса, где создана функция&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;protected - доступно из вашего класса, а так же класса наследников&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;public - доступна отовсюду&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="800" y="515" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oZKDr4SR8ECKcvLH25NA-6" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Ввод при помощи Scanner&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-210" y="160" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oZKDr4SR8ECKcvLH25NA-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Структура файла&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="900" y="210" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oZKDr4SR8ECKcvLH25NA-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Модификаторы доступа&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="880" y="440" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oZKDr4SR8ECKcvLH25NA-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Работа с файлом&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="390" y="160" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="keyRzlo2p3a5EmeszT2t-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="keyRzlo2p3a5EmeszT2t-1" target="keyRzlo2p3a5EmeszT2t-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keyRzlo2p3a5EmeszT2t-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="keyRzlo2p3a5EmeszT2t-1" target="keyRzlo2p3a5EmeszT2t-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1400" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1540" y="400" />
+              <mxPoint x="1410" y="400" />
+              <mxPoint x="1410" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keyRzlo2p3a5EmeszT2t-1" value="&lt;div&gt;     List&amp;nbsp;&lt;/div&gt;&lt;div&gt;Хранит упорядоченные элементы (кот. могут быть одинаковые). представляет функциональность простых списков.&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1540" y="383" width="290" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="keyRzlo2p3a5EmeszT2t-2" value="&lt;div&gt;    ArrayList&amp;nbsp;&lt;/div&gt;&lt;div&gt;преимущество в навигации. Представляет простой список, аналогичный массиву, за тем исключением, что количество элементов в нем не фиксировано.&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1540" y="540" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="keyRzlo2p3a5EmeszT2t-3" value="&lt;div&gt;     LinkedList&amp;nbsp;&lt;/div&gt;&lt;div&gt;преимущество во вставке и удалении элементов. Соединяет функциональность работы со списком и функциональность очереди. Это список, в котором у каждого элемента есть ссылка на предыдущий и следующий элементы&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1512.5" y="655" width="345" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="keyRzlo2p3a5EmeszT2t-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="keyRzlo2p3a5EmeszT2t-4" target="keyRzlo2p3a5EmeszT2t-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keyRzlo2p3a5EmeszT2t-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="keyRzlo2p3a5EmeszT2t-4" target="keyRzlo2p3a5EmeszT2t-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keyRzlo2p3a5EmeszT2t-4" value="&lt;div&gt;    Queue&amp;nbsp;&lt;/div&gt;&lt;div&gt;для реализации в виде очереди. Определяет поведение класса в качестве однонаправленной очереди.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="2150" y="370" width="230" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="keyRzlo2p3a5EmeszT2t-5" value="&lt;div&gt;      Deque&amp;nbsp;&lt;/div&gt;&lt;div&gt;определяет поведение двунаправленной очереди, которая работает как обычная однонаправленная очередь, либо как стек, действующий по принципу LIFO (последний вошел - первый вышел).&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1910" y="527.5" width="270" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="keyRzlo2p3a5EmeszT2t-8" value="&lt;div&gt;   PriorityQueue&amp;nbsp;&lt;/div&gt;&lt;div&gt;работают по принципу FIFO (first in first out).&amp;nbsp; Упорядоченная очередь. Этот класс может быть полезен, например, для нахождения n минимальных чисел в большом неупорядоченном списке&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="2260" y="525" width="349" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="keyRzlo2p3a5EmeszT2t-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="keyRzlo2p3a5EmeszT2t-10" target="keyRzlo2p3a5EmeszT2t-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keyRzlo2p3a5EmeszT2t-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="keyRzlo2p3a5EmeszT2t-10" target="keyRzlo2p3a5EmeszT2t-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keyRzlo2p3a5EmeszT2t-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="keyRzlo2p3a5EmeszT2t-10" target="keyRzlo2p3a5EmeszT2t-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keyRzlo2p3a5EmeszT2t-10" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Collection&lt;/font&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2210" y="170" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="keyRzlo2p3a5EmeszT2t-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="keyRzlo2p3a5EmeszT2t-11" target="keyRzlo2p3a5EmeszT2t-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keyRzlo2p3a5EmeszT2t-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.462;entryY=-0.045;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="keyRzlo2p3a5EmeszT2t-11" target="keyRzlo2p3a5EmeszT2t-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keyRzlo2p3a5EmeszT2t-11" value="&lt;div&gt;    Set&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;не содержит повторяющихся элементов. Неупорядоченное множество уникальных элементов&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="2866" y="345" width="240" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="keyRzlo2p3a5EmeszT2t-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="keyRzlo2p3a5EmeszT2t-12" target="keyRzlo2p3a5EmeszT2t-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keyRzlo2p3a5EmeszT2t-12" value="&lt;div&gt;    SortedSet&lt;/div&gt;&lt;div&gt;&amp;nbsp;предназначен для создания коллекций, который хранят элементы в отсортированном виде (сортировка по возрастанию). Хранит только уникальные значения.&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="2686" y="520" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="keyRzlo2p3a5EmeszT2t-13" value="&lt;div&gt;    TreeSet&amp;nbsp;&lt;/div&gt;&lt;div&gt;упорядочивает элементы по их значениям. Представляет структуру данных в виде дерева, в котором все объекты хранятся в отсортированном виде по возрастанию&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="2670" y="665" width="302" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="keyRzlo2p3a5EmeszT2t-14" value="&lt;div&gt;     HashSet&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;упорядочивает элементы по их хэш ключам. Представляет хеш-таблицу. Хеш-таблица представляет такую структуру данных, в которой все объекты имеют уникальный ключ или хеш-код. Данный ключ позволяет уникально идентифицировать объект в таблице.&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="3116" y="520" width="290" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
