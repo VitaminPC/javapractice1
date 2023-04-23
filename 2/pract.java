@@ -1,4 +1,3 @@
-import java.lang.module.ResolutionException;
 import java.util.Scanner;
 
 public class pract {
