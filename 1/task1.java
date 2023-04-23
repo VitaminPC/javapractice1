@@ -8,10 +8,14 @@ public class task1 {
         System.out.print("Введите целое число:");
         int n = iScanner.nextInt();
         long res = 0;
+        long fact = 1;
         for (int i = 1; i <= n; i++) {
             res += i;
+            fact *= i;
         }
-        System.out.printf("треугольное число на базе %d = %d", n, res);
+        System.out.printf("Треугольное число на базе %d = %d", n, res);
+        System.out.println();
+        System.out.printf("Факториал %d = %d", n, fact);
         iScanner.close();
     }
 }
