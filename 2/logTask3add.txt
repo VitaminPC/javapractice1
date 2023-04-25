@@ -1,0 +1,4 @@
+апр. 25, 2023 12:33:04 PM task3add main
+WARNING: 7.0 * 3.0 = 21.0
+апр. 25, 2023 12:33:05 PM task3add main
+INFO: 7.0 * 3.0 = 21.0

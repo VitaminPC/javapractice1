@@ -1,0 +1,20 @@
+апр. 25, 2023 12:34:59 PM task1 bubbleSortArray
+WARNING: Текущая версия массива: 2 3 4 8 1 2
+апр. 25, 2023 12:34:59 PM task1 bubbleSortArray
+INFO: Текущая версия массива: 2 3 4 8 1 2
+апр. 25, 2023 12:34:59 PM task1 bubbleSortArray
+WARNING: Текущая версия массива: 2 3 4 1 2 8
+апр. 25, 2023 12:34:59 PM task1 bubbleSortArray
+INFO: Текущая версия массива: 2 3 4 1 2 8
+апр. 25, 2023 12:34:59 PM task1 bubbleSortArray
+WARNING: Текущая версия массива: 2 3 1 2 4 8
+апр. 25, 2023 12:34:59 PM task1 bubbleSortArray
+INFO: Текущая версия массива: 2 3 1 2 4 8
+апр. 25, 2023 12:34:59 PM task1 bubbleSortArray
+WARNING: Текущая версия массива: 2 1 2 3 4 8
+апр. 25, 2023 12:34:59 PM task1 bubbleSortArray
+INFO: Текущая версия массива: 2 1 2 3 4 8
+апр. 25, 2023 12:34:59 PM task1 bubbleSortArray
+WARNING: Текущая версия массива: 1 2 2 3 4 8
+апр. 25, 2023 12:34:59 PM task1 bubbleSortArray
+INFO: Текущая версия массива: 1 2 2 3 4 8
